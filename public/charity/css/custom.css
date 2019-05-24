@@ -1,0 +1,156 @@
+.hero::after {
+    background-color: #6a696b;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+    }
+
+
+    .hero-title,
+.hero-sub-title {
+width: 100%;
+display: block;
+text-align: center;
+
+}
+
+.hero-title {
+margin: 3% 0;
+text-transform: uppercase;
+color: white;
+}
+
+
+.special::after {
+    background-color: #6a696b;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1em;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+    }
+
+
+
+    /* .flexContainer {
+        display:flex;
+        flex-wrap:wrap;
+        border: 1px solid;
+      }
+      .img {
+        width:110px;
+        height:110px;
+        background:red;
+      }
+      .flexItem {
+        flex-basis:200px;
+        flex-grow:9999;
+        background:#ff1;
+      }
+      .wrapItem {
+        flex-basis:100px;
+        flex-grow:1;
+        background:#aab;
+      } */
+
+
+    .full_con_2col {
+        width: 825px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 1px solid #c3c3c3; */
+}
+
+
+    .full_con_2col .teaser {
+        flex-basis: auto;
+        margin-bottom: 10px;
+    }
+
+    .teaser {
+        display: block;
+    }
+
+
+    .teaser {
+        display: inline-block;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 6px 0px;
+        position: relative;
+        background: rgb(255, 255, 255);
+        padding: 0px;
+        margin: 0px 0px 20px;
+    }
+
+    .teaser .col-2 {
+        position: relative;
+        display: block;
+        float: left;
+        width: 146px;
+        padding: 10px 0px 0px;
+        margin: 0px 6px 0px 10px;
+    }
+
+    .teaser .image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin: 0px 0px 9px;
+    }
+
+    .full_con_2col .col-4 {
+        width: 225px;
+    }
+
+
+    .teaser .col-4 {
+        display: block;
+        float: left;
+        width: 208px;
+        padding: 10px 0px 0px;
+        margin: 0px 6px 0px 10px;
+    }
+
+
+    .teaser h3 {
+        display: block;
+        line-height: 21px;
+        /* font-size: 18px; */
+        font-weight: bold;
+        font-family: UniversNextW04-620CondB, "Arial Narrow", Arial, sans-serif;
+        text-transform: none;
+        color: rgb(100, 98, 98);
+        margin: 0px;
+        padding: 5px 0px 7px;
+    }
+
+    .full_con_2col .teaser h3 span.kicker {
+        display: block;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: normal;
+        font-family: UniversNextW04-620CondB, "Arial Narrow", Arial, sans-serif;
+        color: rgb(100, 98, 98);
+        height: auto;
+        overflow: inherit;
+        padding: 0px;
+    }
+
+
+    .politics {
+        color: rgb(0, 91, 172) !important;
+    }
